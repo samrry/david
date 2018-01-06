@@ -1,4 +1,4 @@
-<phpunit bootstrap="bootstrap/app.php">
+<phpunit bootstrap="bootstrap/app.php" color="true">
     <testsuites>
         <testsuite name="money">
             <directory>tests</directory>
