@@ -12,6 +12,16 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "php": ">=7.0",
+        "illuminate/cache": "5.5.*",
+        "illuminate/container": "5.5.*",
+        "illuminate/contracts": "5.5.*",
+        "illuminate/database": "5.5.*",
+        "illuminate/validation": "5.5.*",
+        "nikic/fast-route": "~1.2",
+        "symfony/http-kernel": "~3.3",
+        "symfony/http-foundation": "~3.3",
+        "vlucas/phpdotenv": "^2.5@dev"
     },
     "autoload": {
         "psr-4": {

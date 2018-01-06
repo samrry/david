@@ -1,0 +1,28 @@
+[06-Jan-2018 06:06:50 UTC] PHP Fatal error:  Uncaught Error: Class 'David\Foundation\Route' not found in F:\phpStudy\WWW\DavidNineRoc\public\index.php:4
+Stack trace:
+#0 {main}
+  thrown in F:\phpStudy\WWW\DavidNineRoc\public\index.php on line 4
+[06-Jan-2018 06:07:12 UTC] PHP Fatal error:  Uncaught Error: Class 'David\Foundation\Route' not found in F:\phpStudy\WWW\DavidNineRoc\public\index.php:4
+Stack trace:
+#0 {main}
+  thrown in F:\phpStudy\WWW\DavidNineRoc\public\index.php on line 4
+[06-Jan-2018 06:07:13 UTC] PHP Fatal error:  Uncaught Error: Class 'David\Foundation\Route' not found in F:\phpStudy\WWW\DavidNineRoc\public\index.php:4
+Stack trace:
+#0 {main}
+  thrown in F:\phpStudy\WWW\DavidNineRoc\public\index.php on line 4
+[06-Jan-2018 06:07:35 UTC] PHP Fatal error:  Uncaught Error: Class 'David\Foundation\Route' not found in F:\phpStudy\WWW\DavidNineRoc\public\index.php:4
+Stack trace:
+#0 {main}
+  thrown in F:\phpStudy\WWW\DavidNineRoc\public\index.php on line 4
+[06-Jan-2018 06:07:35 UTC] PHP Fatal error:  Uncaught Error: Class 'David\Foundation\Route' not found in F:\phpStudy\WWW\DavidNineRoc\public\index.php:4
+Stack trace:
+#0 {main}
+  thrown in F:\phpStudy\WWW\DavidNineRoc\public\index.php on line 4
+[06-Jan-2018 06:07:40 UTC] PHP Fatal error:  Uncaught Error: Class 'David\Foundation\Route' not found in F:\phpStudy\WWW\DavidNineRoc\public\index.php:5
+Stack trace:
+#0 {main}
+  thrown in F:\phpStudy\WWW\DavidNineRoc\public\index.php on line 5
+[06-Jan-2018 06:07:41 UTC] PHP Fatal error:  Uncaught Error: Class 'David\Foundation\Route' not found in F:\phpStudy\WWW\DavidNineRoc\public\index.php:5
+Stack trace:
+#0 {main}
+  thrown in F:\phpStudy\WWW\DavidNineRoc\public\index.php on line 5
