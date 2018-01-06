@@ -2,13 +2,14 @@
 
 namespace David;
 
-use FastRoute\Route;
+use David\Foundation\Route;
 use Illuminate\Container\Container;
-use Illuminate\Support\Facades\Config;
+
 
 class Application extends Container
 {
-    protected $basePath;
+    public $basePath;
+    public $router;
 
     public function __construct($basePath = null)
     {
@@ -18,14 +19,12 @@ class Application extends Container
 
         $this->bootstrapContainer();
 
-
+        $this->bootstrapRouter();
         // $this->registerError();
     }
 
     protected function initConfig()
     {
-        require $this->basePath . '/bootstrap/helpers.php';
-
         // 设置时区
         date_default_timezone_set(env('TIME_ZONE', 'PRC'));
     }
@@ -34,5 +33,10 @@ class Application extends Container
     {
         static::setInstance($this);
         $this->instance('app', $this);
+    }
+
+    protected function bootstrapRouter()
+    {
+        $this->router = new Route();
     }
 }

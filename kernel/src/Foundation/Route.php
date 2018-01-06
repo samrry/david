@@ -8,6 +8,7 @@ use Illuminate\Support\Arr;
 
 class Route
 {
+    public $nameSpace = "\\App\\Controllers";
 
     public function dispatch($routerFile)
     {
