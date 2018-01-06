@@ -3,6 +3,7 @@
 namespace David;
 
 use David\Foundation\Route;
+use Illuminate\Cache\CacheManager;
 use Illuminate\Config\Repository;
 use Illuminate\Container\Container;
 use Illuminate\Database\Capsule\Manager;
