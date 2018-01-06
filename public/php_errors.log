@@ -219,3 +219,41 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in F:\phpStudy\WWW\DavidNineRoc\public\index.php on line 19
+[06-Jan-2018 16:44:54 PRC] PHP Fatal error:  Uncaught Error: Call to undefined function David\config() in F:\phpStudy\WWW\DavidNineRoc\kernel\src\Application.php:25
+Stack trace:
+#0 F:\phpStudy\WWW\DavidNineRoc\bootstrap\app.php(13): David\Application->__construct('F:\\phpStudy\\WWW...')
+#1 F:\phpStudy\WWW\DavidNineRoc\public\index.php(4): require('F:\\phpStudy\\WWW...')
+#2 {main}
+  thrown in F:\phpStudy\WWW\DavidNineRoc\kernel\src\Application.php on line 25
+[06-Jan-2018 16:45:04 PRC] PHP Fatal error:  Uncaught Error: Call to undefined function David\config() in F:\phpStudy\WWW\DavidNineRoc\kernel\src\Application.php:25
+Stack trace:
+#0 F:\phpStudy\WWW\DavidNineRoc\bootstrap\app.php(13): David\Application->__construct('F:\\phpStudy\\WWW...')
+#1 F:\phpStudy\WWW\DavidNineRoc\public\index.php(4): require('F:\\phpStudy\\WWW...')
+#2 {main}
+  thrown in F:\phpStudy\WWW\DavidNineRoc\kernel\src\Application.php on line 25
+[06-Jan-2018 16:45:04 PRC] PHP Fatal error:  Uncaught Error: Call to undefined function config() in F:\phpStudy\WWW\DavidNineRoc\kernel\src\Application.php:25
+Stack trace:
+#0 F:\phpStudy\WWW\DavidNineRoc\bootstrap\app.php(13): David\Application->__construct('F:\\phpStudy\\WWW...')
+#1 F:\phpStudy\WWW\DavidNineRoc\public\index.php(4): require('F:\\phpStudy\\WWW...')
+#2 {main}
+  thrown in F:\phpStudy\WWW\DavidNineRoc\kernel\src\Application.php on line 25
+[06-Jan-2018 16:45:08 PRC] PHP Fatal error:  Uncaught Error: Call to undefined function config() in F:\phpStudy\WWW\DavidNineRoc\kernel\src\Application.php:25
+Stack trace:
+#0 F:\phpStudy\WWW\DavidNineRoc\bootstrap\app.php(13): David\Application->__construct('F:\\phpStudy\\WWW...')
+#1 F:\phpStudy\WWW\DavidNineRoc\public\index.php(4): require('F:\\phpStudy\\WWW...')
+#2 {main}
+  thrown in F:\phpStudy\WWW\DavidNineRoc\kernel\src\Application.php on line 25
+[06-Jan-2018 16:45:42 PRC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function config(), 1 passed in F:\phpStudy\WWW\DavidNineRoc\kernel\src\Application.php on line 25 and exactly 2 expected in F:\phpStudy\WWW\DavidNineRoc\bootstrap\helpers.php:4
+Stack trace:
+#0 F:\phpStudy\WWW\DavidNineRoc\kernel\src\Application.php(25): config('mysql')
+#1 F:\phpStudy\WWW\DavidNineRoc\bootstrap\app.php(13): David\Application->__construct('F:\\phpStudy\\WWW...')
+#2 F:\phpStudy\WWW\DavidNineRoc\public\index.php(4): require('F:\\phpStudy\\WWW...')
+#3 {main}
+  thrown in F:\phpStudy\WWW\DavidNineRoc\bootstrap\helpers.php on line 4
+[06-Jan-2018 16:45:42 PRC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function config(), 1 passed in F:\phpStudy\WWW\DavidNineRoc\kernel\src\Application.php on line 25 and exactly 2 expected in F:\phpStudy\WWW\DavidNineRoc\bootstrap\helpers.php:4
+Stack trace:
+#0 F:\phpStudy\WWW\DavidNineRoc\kernel\src\Application.php(25): config('mysql')
+#1 F:\phpStudy\WWW\DavidNineRoc\bootstrap\app.php(13): David\Application->__construct('F:\\phpStudy\\WWW...')
+#2 F:\phpStudy\WWW\DavidNineRoc\public\index.php(4): require('F:\\phpStudy\\WWW...')
+#3 {main}
+  thrown in F:\phpStudy\WWW\DavidNineRoc\bootstrap\helpers.php on line 4
