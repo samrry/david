@@ -1,0 +1,31 @@
+{
+    "name": "davidnineroc/david",
+    "description": "一个快速开发API的框架",
+    "keywords": ["framework", "API", "david"],
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DavidNineRoc",
+            "email": "1033404553@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "David\\": "kernel/src/",
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.4"
+    }
+}
